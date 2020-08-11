@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.5.1",
+    "next-transpile-modules": "^4.0.2",
+    "parent-package": "file:../",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

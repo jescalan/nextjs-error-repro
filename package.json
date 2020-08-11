@@ -1,0 +1,16 @@
+{
+  "name": "example-parent",
+  "version": "0.0.0",
+  "author": "Jeff Escalante",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "next": "9.x",
+    "react": "16.x",
+    "react-dom": "16.x"
+  },
+  "scripts": {
+    "example": "cd example && npm start",
+    "bootstrap": "npm i && cd example && npm i"
+  }
+}
