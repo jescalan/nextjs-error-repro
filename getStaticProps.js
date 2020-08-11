@@ -1,5 +1,9 @@
-export default async function getStaticProps() {
-  console.log('this is bundled on the client side!')
+import renderToString from 'next-mdx-remote/render-to-string'
 
-  return { props: { foo: 'bar' } }
+export default async function getStaticProps() {
+  return {
+    props: {
+      foo: 'bar',
+    },
+  }
 }

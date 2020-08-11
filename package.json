@@ -12,5 +12,8 @@
   "scripts": {
     "example": "cd example && npm start",
     "bootstrap": "npm i && cd example && npm i"
+  },
+  "dependencies": {
+    "next-mdx-remote": "^0.6.0"
   }
 }
